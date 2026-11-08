@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="4.3250899in"
+   height="11.340347in"
+   viewBox="0 0 311.4071 816.50664"
+   id="svg5"
+   sodipodi:docname="bishop sleeves right.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs5" />
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="in"
+     inkscape:zoom="0.26617137"
+     inkscape:cx="-306.19371"
+     inkscape:cy="445.2019"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
+  <g
+     id="Layer1000"
+     transform="translate(-939.30484,-376.0168)">
+    <path
+       d="M 963.5723,377.4341 C 922.8565,528.2732 936.4822,618.03 1005.0894,645.987"
+       style="fill:none;stroke:#000000;stroke-width:2.8346;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path1" />
+    <path
+       d="m 963.5726,377.4346 c 25.5152,3.8252 48.2805,8.5497 59.7452,22.659 240.2023,264.2846 235.0939,486.1344 219.958,604.8148 -2.36,47.837 -26.6913,56.1959 -64.0487,41.1476 -24.1565,11.3185 -52.0276,17.4109 -83.4281,18.5376 -16.9295,25.9736 -38.3272,21.1506 -62.2004,-0.7338 C 994.2374,934.1427 991.7287,801.4523 1005.0894,646.099"
+       style="fill:none;stroke:#000000;stroke-width:2.8346;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path2" />
+    <path
+       d="m 1179.2271,1046.056 15.8331,131.2711 c -16.8931,11.0543 -37.5069,14.8265 -60.7059,13.5375 l -38.5553,-126.271"
+       style="fill:none;stroke:#000000;stroke-width:2.8346;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path3" />
+    <path
+       d="m 1123.3709,1062.1937 29.8277,127.7111"
+       style="fill:none;stroke:#000000;stroke-width:2.8346;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path4" />
+    <path
+       d="m 1132.2931,1072.1942 a 4.915,5.0292 85.5587 0 1 5.3947,4.5107 4.915,5.0292 85.5587 1 1 -5.3947,-4.5107 z"
+       style="fill:none;stroke:#000000;stroke-width:2.8346;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path5" />
+  </g>
+</svg>

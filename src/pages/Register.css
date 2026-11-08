@@ -1,0 +1,223 @@
+/* Motifora Registration Page */
+
+.register-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 35px 18px;
+  background:
+    radial-gradient(circle at top left, #f1e4c9 0, transparent 35%),
+    #f8f6f1;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #29251e;
+}
+
+.register-card {
+  width: 100%;
+  max-width: 470px;
+  padding: 40px;
+  background: #ffffff;
+  border: 1px solid #e9e0d0;
+  border-radius: 18px;
+  box-shadow: 0 18px 55px rgba(54, 42, 21, 0.09);
+}
+
+.register-brand {
+  display: block;
+  margin-bottom: 30px;
+  color: #a47a2c;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.register-heading {
+  margin-bottom: 27px;
+  text-align: center;
+}
+
+.register-heading h1 {
+  margin: 0 0 10px;
+  color: #292319;
+  font-size: 29px;
+  font-weight: 700;
+  letter-spacing: -0.6px;
+}
+
+.register-heading p {
+  margin: 0;
+  color: #81796c;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* Registration Form */
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.register-field {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.register-field label {
+  color: #383126;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.register-field input {
+  width: 100%;
+  min-height: 48px;
+  padding: 13px 14px;
+  color: #29251e;
+  background: #ffffff;
+  border: 1px solid #ded7ca;
+  border-radius: 8px;
+  outline: none;
+  font-family: inherit;
+  font-size: 14px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.register-field input::placeholder {
+  color: #aaa294;
+}
+
+.register-field input:focus {
+  border-color: #a47a2c;
+  box-shadow: 0 0 0 3px rgba(164, 122, 44, 0.12);
+}
+
+.register-hint {
+  color: #91897b;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* Error Message */
+
+.register-error {
+  padding: 12px 14px;
+  color: #a12f29;
+  background: #fff0ee;
+  border: 1px solid #f0d0cc;
+  border-radius: 8px;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+/* Create Account Button */
+
+.register-submit {
+  width: 100%;
+  min-height: 49px;
+  margin-top: 2px;
+  padding: 13px 18px;
+  color: #ffffff;
+  background: #a47a2c;
+  border: 1px solid #a47a2c;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.register-submit:hover:not(:disabled) {
+  background: #89621e;
+  border-color: #89621e;
+  transform: translateY(-1px);
+}
+
+.register-submit:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.register-submit:focus-visible {
+  outline: 3px solid rgba(164, 122, 44, 0.3);
+  outline-offset: 3px;
+}
+
+/* Existing Account Link */
+
+.register-login {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.register-login p {
+  margin: 0;
+  color: #777064;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.register-login a {
+  color: #9a701f;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.register-login a:hover {
+  color: #745016;
+  text-decoration: underline;
+}
+
+/* Home Link */
+
+.register-bottom {
+  margin-top: 26px;
+  padding-top: 20px;
+  border-top: 1px solid #eee8de;
+  text-align: center;
+}
+
+.register-bottom a {
+  color: #756b5c;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.register-bottom a:hover {
+  color: #9a701f;
+}
+
+/* Responsive Design */
+
+@media (max-width: 480px) {
+  .register-page {
+    padding: 22px 14px;
+  }
+
+  .register-card {
+    padding: 30px 22px;
+    border-radius: 14px;
+  }
+
+  .register-brand {
+    margin-bottom: 25px;
+    font-size: 14px;
+  }
+
+  .register-heading h1 {
+    font-size: 25px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .register-field input,
+  .register-submit {
+    transition: none;
+  }
+}
